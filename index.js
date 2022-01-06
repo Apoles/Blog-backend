@@ -25,7 +25,7 @@ app.use(
 dotenv.config();
 
 app.use(cors());
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 9000;
 const CONNTECTION_URL = process.env.CONNTECTION_URL;
 
 app.use("/blog", blogRoute);
